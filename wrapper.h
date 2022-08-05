@@ -14,14 +14,13 @@
 #include <mlir-c/Dialect/SCF.h>
 #include <mlir-c/Dialect/Shape.h>
 #include <mlir-c/Dialect/SparseTensor.h>
-#include <mlir-c/Dialect/Standard.h>
+#include <mlir-c/Dialect/Func.h>
 #include <mlir-c/Dialect/Tensor.h>
 #include <mlir-c/ExecutionEngine.h>
 #include <mlir-c/IntegerSet.h>
-// TODO This should be fixed on LLVM >14.0.6.
-// #include <mlir-c/Interfaces.h>
+#include <mlir-c/Interfaces.h>
 #include <mlir-c/IR.h>
 #include <mlir-c/Pass.h>
-#include <mlir-c/Registration.h>
+#include <mlir-c/RegisterEverything.h>
 #include <mlir-c/Support.h>
 #include <mlir-c/Transforms.h>
